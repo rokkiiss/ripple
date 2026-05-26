@@ -4,6 +4,8 @@
 
 Cloud-based copy trading service for Tradovate. Mirror one master account to unlimited follower accounts in real time.
 
+**Live site:** https://rokkiiss.github.io/ripple
+
 ---
 
 ## Project Structure
