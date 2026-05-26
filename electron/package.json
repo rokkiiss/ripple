@@ -1,0 +1,26 @@
+{
+  "name": "ripple-desktop",
+  "version": "1.0.0",
+  "description": "Ripple — copy trading desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "trade.ripple.app",
+    "productName": "Ripple",
+    "directories": { "output": "dist" },
+    "win": { "target": "nsis", "icon": "assets/icon.ico" },
+    "mac": { "target": "dmg", "icon": "assets/icon.icns" },
+    "publish": [{ "provider": "github", "owner": "rokkiiss", "repo": "ripple" }]
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7"
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}
