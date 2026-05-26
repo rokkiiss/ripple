@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ripple/static/js/main.45ef2f33.js",
+    "index.html": "/ripple/index.html",
+    "main.45ef2f33.js.map": "/ripple/static/js/main.45ef2f33.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.45ef2f33.js"
+  ]
+}
